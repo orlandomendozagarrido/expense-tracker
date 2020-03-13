@@ -1,0 +1,35 @@
+@import 'slider';
+
+.hamburger{
+   width: 75px;
+   height: 35px;
+   position: relative;
+   margin: 15px;
+
+   //hover effect infocus
+   &:hover, &:focus{
+
+   }
+}
+
+.line{
+	background: black;
+    width: 75px;
+    height: 10px;
+    position: absolute;
+    border-radius: 5px;
+
+  &.line-1{
+	top: 0%;
+  }
+
+  &.line-2{
+	top: 50%;
+  }
+
+  &.line-3{
+	top: 100%;
+  }
+
+}
+

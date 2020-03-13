@@ -1,0 +1,236 @@
+.sun-input-style[type="checkbox"] {
+  display: none; }
+
+.sun-toggle-container .moon-craters {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 65px;
+  background-color: #C2E7F9;
+  border-radius: 50%;
+  left: calc(50% - 0px);
+  top: calc(50% - 0px);
+  box-shadow: 0 0 8px 3px #C2E7F9; }
+  .sun-toggle-container .moon-craters:before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 65px;
+    background-color: #C2E7F9;
+    border-radius: 50%;
+    left: calc(50% - 0px);
+    top: calc(50% - 0px);
+    box-shadow: 0 0 8px 3px #C2E7F9; }
+  .sun-toggle-container .moon-craters:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 75px;
+    background-color: #C2E7F9;
+    border-radius: 50%;
+    left: calc(50% - 0px);
+    top: calc(50% - 0px);
+    box-shadow: 0 0 8px 3px #C2E7F9; }
+
+.sun-toggle-container {
+  transition: all 0.5s ease-out;
+  background-color: #C2E7F9;
+  height: 100px;
+  width: 250px;
+  box-shadow: 0 0 12px lightskyblue, inset 0 0 10px 7px lightskyblue;
+  top: calc(50% - 50px);
+  left: calc(50% - 125px);
+  border-radius: 50px;
+  position: absolute; }
+  .sun-toggle-container:hover {
+    padding: 0.5rem 1.5rem;
+    background: lightskyblue;
+    color: #000; }
+    .sun-toggle-container:hover input {
+      color: #000; }
+  .sun-toggle-container:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 65px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - -40px);
+    top: calc(50% - 10px);
+    box-shadow: 0 0 8px 7px white; }
+  .sun-toggle-container:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 60px);
+    top: calc(50% - 25px);
+    box-shadow: 0 0 8px 7px white; }
+
+.sun-label-style {
+  position: absolute;
+  height: 50px;
+  width: 23px;
+  display: grid;
+  transition: all 0.5s ease-out;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: #FEDE00;
+  box-shadow: 0 0 10px 7px #FEBE07, inset 0 0 20px 3px #FEBE07;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer; }
+  .sun-label-style:hover {
+    padding: 0.5rem 1.5rem;
+    background: goldenrod;
+    color: #000; }
+    .sun-label-style:hover input {
+      color: #000; }
+  .sun-label-style:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 65px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 10px);
+    top: calc(50% - 25px);
+    box-shadow: 0 0 8px 7px white; }
+  .sun-label-style:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - -15px);
+    top: calc(50% - -15px);
+    box-shadow: 0 0 8px 7px white; }
+
+.sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .sun-label-style {
+  transition: all 0.5s ease-out;
+  left: 160px;
+  box-shadow: 0 0 10px 7px #BFC5A3, inset 0 0 20px 3px #BFC5A3; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .sun-label-style:hover {
+    padding: 0.5rem 1.5rem;
+    background: black;
+    color: #000; }
+    .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .sun-label-style:hover input {
+      color: #000; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .sun-label-style:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 70px);
+    top: calc(50% - 10px);
+    box-shadow: 0 0 8px 3px white; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .sun-label-style:before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 85px);
+    top: calc(50% - -25px);
+    box-shadow: 0 0 8px 3px white; }
+
+.sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container {
+  transition: all 0.5s ease-out;
+  background-color: #1D2855;
+  box-shadow: 0 0 12px black,  inset 0 0 10px 7px black; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container:hover {
+    padding: 0.5rem 1.5rem;
+    background: darkblue;
+    color: #000; }
+    .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container:hover input {
+      color: #000; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 10px);
+    top: calc(50% - 30px);
+    box-shadow: 0 0 8px 3px white; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    border-radius: 50%;
+    left: calc(50% - 35px);
+    top: calc(50% - -5px);
+    box-shadow: 0 0 8px 3px white; }
+
+.sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .moon-craters {
+  transition: all 0.5s ease-out;
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #BFC5A3;
+  border-radius: 50%;
+  left: calc(50% - -55px);
+  top: calc(50% - 15px);
+  box-shadow: 0 0 8px 3px #BFC5A3; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .moon-craters:hover {
+    padding: 0.5rem 1.5rem;
+    background: lightskyblue;
+    color: #000; }
+    .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .moon-craters:hover input {
+      color: #000; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .moon-craters:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #BFC5A3;
+    border-radius: 50%;
+    left: calc(50% - -20px);
+    top: calc(50% - -30px);
+    box-shadow: 0 0 8px 3px #BFC5A3; }
+  .sun-input-style[type="checkbox"]:checked ~ .sun-toggle-container .moon-craters:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: #BFC5A3;
+    border-radius: 50%;
+    left: calc(50% - -35px);
+    top: calc(50% - -5px);
+    box-shadow: 0 0 8px 3px #BFC5A3; }
+
+*,
+*:before,
+*:after {
+  transition: 1s all ease-in-out 1ms; }
+
+.hamburger {
+  width: 75px;
+  height: 35px;
+  position: relative;
+  margin: 15px; }
+
+.line {
+  background: black;
+  width: 75px;
+  height: 10px;
+  position: absolute;
+  border-radius: 5px; }
+  .line.line-1 {
+    top: 0%; }
+  .line.line-2 {
+    top: 50%; }
+  .line.line-3 {
+    top: 100%; }
